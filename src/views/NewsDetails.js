@@ -4,6 +4,7 @@ import '../components/newsdetails.css';
 import Articles from '../components/Articles';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import NewsHeader from '../components/NewsHeader';
 
 
 const NewsDetails = () => {
@@ -34,6 +35,7 @@ const NewsDetails = () => {
   return (
     <>
       <Header />
+      <NewsHeader />
       <div className='container mt-5'>
         <div className='NewsTop'>
           <div>

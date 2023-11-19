@@ -1,3 +1,7 @@
+.btn-yellow {
+  margin-right: 70px;
+}
+
 .newsletter {
     position: relative;
     background-color: #F0EFE9;
@@ -6,7 +10,7 @@
   }
   .newsletter .background {
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     right: 0;
   }
   .newsletter .container {

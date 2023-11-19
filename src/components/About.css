@@ -1,0 +1,136 @@
+.about {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-top: 60px;
+  }
+  
+  .about .container {
+    display: grid;
+    justify-content: center;
+    justify-items: auto;
+    align-items: top;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 968px) {
+    .about .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .about .container .infobox {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  
+  @media (min-width: 992px) {
+    .about .container .infobox h2 {
+      width: 50%;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .about .container .infobox h4 {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #f94d1c;
+    padding-bottom: 40px;
+  }
+  
+  .about .container .infobox h3 {
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .about .container .infobox p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #000000;
+  }
+  
+  .about .container .infobox .btn {
+    justify-content: space-between;
+    text-align: left;
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .about .container .infobox .btn .btn-black {
+    margin-right: 50px;
+  }
+  
+  .about .container .samantha {
+    position: relative;
+  }
+  
+  .about .container .samantha img {
+    padding-top: 20px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .about .container .text-block {
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 60px;
+    left: -30px;
+    background-color: #BEEBFF;
+    color: white;
+    height: 180px;
+    width: auto;
+  }
+  
+  @media (max-width: 540px) {
+    .about .container .text-block {
+      margin: 20px;
+      bottom: -10px;
+    }
+  }
+  
+  .about .container .text-block .name {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about .container .text-block .name h3 {
+    padding-top: 10px;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-weight: bold;
+    color: #191919;
+  }
+  
+  .about .container .text-block .name h4 {
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: bold;
+    color: #F94D1C;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about .container .text-block p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: #191919;
+  }
+  

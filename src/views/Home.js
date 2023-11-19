@@ -13,6 +13,7 @@ import Articles from '../components/Articles'
 import WhyUs from '../components/WhyUs'
 import Testimonial from '../components/Testimonial'
 import Features from '../components/Features'
+import About from '../components/About'
 
 
 const Home = () => {
@@ -22,11 +23,12 @@ const Home = () => {
         <Showcase />
         <Brands />
         <Features />
+        <About />
+        <OurServices />
         <WhyUs />
         <ProjectAndCase />
         <MeetOurTeam />
         <Testimonial />
-        <OurServices />
         <Articles />
         <Newsletter />
         <Footer />
@@ -34,4 +36,4 @@ const Home = () => {
   )
 }
 
-export default Homeg
+export default Home

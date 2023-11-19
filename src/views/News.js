@@ -4,13 +4,13 @@ import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 import Articles from '../components/Articles'
 import OurNewsAndArticles from '../components/OurNewsAndArticles'
-import ContactsHeader from '../components/ContactsHeader'
+import NewsHeader from '../components/NewsHeader'
 
 const News = () => {
   return (
     <div>
         <Header />
-        <ContactsHeader />
+        <NewsHeader />
         <OurNewsAndArticles />
         <Newsletter />
         <Footer />
