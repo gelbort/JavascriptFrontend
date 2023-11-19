@@ -1,0 +1,192 @@
+.testbtn {
+  border: 1px solid black;
+  color: #F0EFE9;
+  border-radius: 50%;
+  padding: 21px 13px;
+  background-color: #191919;
+}
+
+.form-label {
+  display: block;
+  padding: 5px 0;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+}
+
+.contactheader {
+  background-color: #F0EFE9;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .contactheader {
+    height: 215px;
+  }
+}
+.contactheader .background-lines {
+  position: absolute;
+  z-index: 0;
+  max-width: 100%;
+}
+.contactheader .container .banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}
+.contactheader .container .banner .breadcrumbs {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 300;
+}
+.contactheader .container .banner .breadcrumbs h2 {
+  font-family: "DM Sans";
+  font-size: 56px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+}
+.contactheader .container .banner .breadcrumbs .breadcrumb {
+  display: inline-block;
+  text-align: center;
+}
+.contactheader .container .banner .breadcrumbs ul.breadcrumb li {
+  display: inline;
+  padding-left: 20px;
+  font-size: 18px;
+  padding-right: 20px;
+  font-family: "Inter";
+}
+.contactheader .container .banner .breadcrumbs ul.breadcrumb li a {
+  color: #191919;
+  text-decoration: none;
+}
+.contactheader .container .banner .breadcrumbs ul.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+.contactheader .container .banner .breadcrumbs li.current {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .contact {
+    background-color: #F0EFE9;
+  }
+}
+.contact .container .contactparent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .contact .container .contactparent {
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
+.contact .container .contactparent .contactcards {
+  display: flex;
+  align-items: start;
+  border: solid 1px #666666;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 30px 100px;
+  padding-left: 40px;
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  .contact .container .contactparent .contactcards {
+    width: 420px;
+    height: 206px;
+  }
+}
+.contact .container .contactparent .contactcards .contacticon {
+  margin-right: 30px;
+}
+.contact .container .contactparent .contactcards a {
+  display: flex;
+  color: #191919;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.contact .container .contactform {
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  background-color: #F0EFE9;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+@media (min-width: 992px) {
+  .contact .container .contactform {
+    margin-bottom: 80px;
+  }
+}
+.contact .container .contactform form #yourMessage {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .contact .container .contactform form {
+    padding: 0 100px;
+  }
+}
+.contact .container .contactform form button {
+  margin-top: 30px;
+  width: 100%;
+}
+.contact .container .contactform form textarea {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  resize: none;
+}
+
+.breadcrumb {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb li {
+  display: inline;
+  padding-left: 20px;
+  font-size: 16px;
+  padding-right: 20px;
+  font-family: "Inter";
+}
+
+.breadcrumb-link {
+  color: #191919;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.current {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  color: #191919;
+}

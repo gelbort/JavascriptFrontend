@@ -1,0 +1,41 @@
+.project {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    color: #191919;
+    text-decoration: none;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 35px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DAD9D3;
+  }
+  
+  .project .readmore {
+    padding: 15px;
+    display: block;
+    text-align: right;
+    color: #191919;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .project .readmore i {
+    margin-left: 3px;
+  }
+  
+  .project:hover .readmore {
+    text-decoration: underline;
+    text-decoration-color: #191919;
+  }

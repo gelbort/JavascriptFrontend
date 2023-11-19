@@ -1,0 +1,128 @@
+footer {
+    background-color: #0e1021;
+    padding-top: 60px;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .topfooter {
+    flex: 1;
+    position: relative;
+    border-bottom: solid 1px #666666;
+  }
+  
+  .topfooter .footerbgimg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+  }
+  
+  .topfooter .container {
+    padding-bottom: 40px;
+  }
+  
+  @media (min-width: 992px) {
+    .topfooter .container .test {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .topfooter .container .test .footerbox {
+    display: grid;
+  }
+  
+  @media (max-width: 540px) {
+    .topfooter .container .test .footerbox {
+      padding-bottom: 15px;
+    }
+  }
+  
+  .topfooter .container .test h3 {
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .topfooter .container .test a {
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    padding-left: 0px;
+  }
+  
+  .topfooter .container .test p {
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .topfooter .container .test .critofooter {
+    max-width: 280px;
+    height: auto;
+    grid-area: crito;
+  }
+  
+  .topfooter .container .test .critofooter img {
+    margin-top: -25px;
+    padding-bottom: 15px;
+  }
+  
+  .topfooter .container .test .critofooter .company {
+    grid-area: company;
+  }
+  
+  .topfooter .container .test .critofooter .help {
+    grid-area: help;
+  }
+  
+  .topfooter .container .test .critofooter .resources {
+    grid-area: resc;
+  }
+  
+  .topfooter .container .test .critofooter .link {
+    grid-area: link;
+  }
+  
+  .two {
+    padding-top: 10px;
+    display: grid;
+  }
+  
+  @media (min-width: 992px) {
+    .two {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  .two p {
+    font-family: "Inter";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .two .socialmediabar i {
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 10px;
+  }
+  
+  .two .socialmediabar i:hover {
+    color: #FFFFFF;
+  }
+  

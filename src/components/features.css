@@ -1,0 +1,81 @@
+.features {
+    @media (min-width: 992px) {
+      border: solid 1px #666666;
+      margin-left: 80px;
+      margin-right: 80px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 40px;
+  
+      @media (min-width: 992px) {
+        display: grid;
+        grid-template-areas: "title allfeat"
+          "btn allfeat";
+        grid-template-columns: 0.6fr 1fr;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+        position: relative;
+      }
+  
+      .section-title {
+        margin: 0;
+        padding-top: 0;
+        margin-right: 70px;
+        grid-area: title;
+  
+        .featbtn {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          grid-area: btn;
+          margin-top: 50px;
+        }
+      }
+  
+      .allfeat {
+        display: grid;
+        grid-area: allfeat;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+  
+        @media (min-width: 992px) {
+          margin-right: 50px;
+          margin-left: 50px;
+        }
+  
+        .featurebox {
+          margin: 35px;
+          margin-bottom: 30px;
+  
+          h4 {
+            padding-top: 15px;
+            font-family: "DM Sans";
+            font-size: 22px;
+            font-weight: 700;
+          }
+  
+          p {
+            font-family: "Inter";
+            font-size: 16px;
+            color: rgba(25, 25, 25, 0.7);
+          }
+  
+          img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+  }
+  

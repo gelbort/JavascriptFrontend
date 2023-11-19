@@ -1,0 +1,132 @@
+.about {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-top: 60px;
+  }
+  
+  .container {
+    display: grid;
+    justify-content: center;
+    justify-items: auto;
+    align-items: top;
+    grid-template-columns: 1fr;
+  
+    @media (min-width: 968px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .samantha {
+    position: relative;
+  }
+  
+  .samantha img {
+    padding-top: 20px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .text-block {
+    @media (max-width: 540px) {
+      margin: 20px;
+      bottom: -10px;
+    }
+  
+    flex-wrap: wrap;
+    text-align: start;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 60px;
+    left: -30px;
+    background-color: #BEEBFF;
+    color: white;
+    height: 180px;
+    width: auto;
+  }
+  
+  .name {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h3 {
+    padding-top: 10px;
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-weight: bold;
+    color: #191919;
+  }
+  
+  h4 {
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: bold;
+    color: #F94D1C;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: #191919;
+  }
+  
+  .infobox {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+  }
+  
+  h2 {
+    @media (min-width: 992px) {
+      width: 50%;
+      padding-bottom: 20px;
+    }
+  }
+  
+  h4 {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #f94d1c;
+    padding-bottom: 40px;
+  }
+  
+  h3 {
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #000000;
+  }
+  
+  .btn {
+    justify-content: space-between;
+    text-align: left;
+    color: #191919;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .btn-black {
+    margin-right: 50px;
+  }
+  

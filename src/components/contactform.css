@@ -1,0 +1,90 @@
+.contactparent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 992px) {
+    .contactparent {
+      justify-content: space-between;
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+  }
+  
+  .contactparent .contactcards {
+    display: flex;
+    align-items: start;
+    border: solid 1px #666666;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 30px 100px;
+    padding-left: 40px;
+    z-index: 1;
+  }
+  
+  @media (min-width: 992px) {
+    .contactparent .contactcards {
+      width: 420px;
+      height: 206px;
+    }
+  }
+  
+  .contactparent .contactcards .contacticon {
+    margin-right: 30px;
+  }
+  
+  .contactparent .contactcards a {
+    display: flex;
+    color: #191919;
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+
+.container.contactform {
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    background-color: #F0EFE9;
+    margin: 0 auto; 
+    width: 80%; 
+    text-align: center; 
+}
+
+@media (min-width: 992px) {
+    .container.contactform {
+        margin-bottom: 80px;
+    }
+}
+
+.container.contactform h2 {
+    margin-bottom: 20px; 
+}
+
+.container.contactform form #yourMessage {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .container.contactform form {
+        padding: 0 100px;
+    }
+}
+
+.container.contactform form button {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.container.contactform form textarea {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    resize: none;
+}
+
+.btn-yellow {
+    border: none;
+}

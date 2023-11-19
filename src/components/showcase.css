@@ -1,0 +1,85 @@
+
+.showcase {
+    background-color: #f0efea;
+    position: relative;
+  }
+  
+  .showcase .background-lines {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    z-index: 0;
+  }
+  
+  .showcase .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .showcase .container .content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+  .showcase .container .content h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .showcase .container .content p {
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .showcase .container .content a {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .showcase .container .content a.btn-transparent {
+    margin-right: 10px;
+    margin-left: 16px;
+  }
+  
+  .showcase .container img {
+    display: none;
+    margin-right: -50px;
+  }
+  
+  @media (min-width: 1200px) {
+    .showcase .container .content {
+      text-align: left;
+    }
+  
+    .showcase .container .content h1 {
+      font-size: 70px;
+    }
+  
+    .showcase .container .content p {
+      font-size: 20px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  
+    .showcase .container .content a {
+      display: inline-block;
+    }
+  
+    .showcase .container img {
+      display: block;
+    }
+  }
+
+  
+  

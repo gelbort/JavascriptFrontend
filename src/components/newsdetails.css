@@ -1,0 +1,17 @@
+
+p {
+    color: black;
+    margin-right: 15px;
+}
+
+.article-image {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    margin: 20px 0; 
+    
+}
+
+.article {
+    padding-bottom: 40px;
+}

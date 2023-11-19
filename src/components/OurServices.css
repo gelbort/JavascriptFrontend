@@ -1,0 +1,81 @@
+.ourservices {
+    background-color: #f0efe9;
+    background: url('/src/assets/images/backgrounds/background-lines-right.svg') center/cover no-repeat;
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+    padding-bottom: 80px;
+  }
+  .ourservices .container {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  .ourservices .container .center-content {
+    margin-top: 40px;
+  }
+  .ourservices .container .infobox {
+    gap: 30px;
+  }
+  @media (max-width: 540px) {
+    .ourservices .container .infobox {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+  }
+  @media (min-width: 760px) {
+    .ourservices .container .infobox {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      padding-left: 5px;
+    }
+  }
+  @media (min-width: 968px) {
+    .ourservices .container .infobox {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 30px;
+    }
+  }
+  .ourservices .container .infobox article {
+    display: grid;
+    background-color: #ffffff;
+    height: auto;
+    width: 333px;
+    overflow-wrap: break-word;
+    position: relative;
+    text-align: start;
+    padding-bottom: 50px;
+  }
+  .ourservices .container .infobox article:hover {
+    background-color: #f9d783;
+  }
+  .ourservices .container .infobox article h4 {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .ourservices .container .infobox article p {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-right: 20px;
+  }
+  .ourservices .container .infobox article .btn-round {
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+  }
+  .ourservices .container .infobox article .short-border {
+    margin-top: 40px;
+    position: absolute;
+    left: 20px;
+    right: 80%;
+    border-top: 2px solid #191919;
+  }
+

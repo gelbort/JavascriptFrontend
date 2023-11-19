@@ -1,0 +1,25 @@
+.brands {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .brands .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  .brands .brands-desktop {
+    border-radius: 4px;
+    display: flex;
+  }
+  
+  .brands .brands-desktop img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  

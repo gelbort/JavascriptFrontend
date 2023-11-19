@@ -1,0 +1,217 @@
+.testbtn {
+    border: 1px solid black;
+    // margin-top: 3px;
+    color: #F0EFE9;
+    border-radius: 50%;
+    padding: 21px 13px;
+    background-color: #191919;
+}
+
+.form-label {
+    display: block;
+    padding: 5px 0;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+}
+
+.contactheader {
+    background-color: #F0EFE9;
+    position: relative;
+
+    @media (min-width: 992px) {
+        height: 215px;
+        
+    }
+
+    .background-lines {
+        position: absolute;
+        z-index: 0;
+        max-width: 100%;
+    }
+    
+    .container {
+       
+        .banner {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            text-align: center;
+            
+
+            .breadcrumbs {
+                text-decoration: none;
+                list-style: none;
+                font-family: "Inter";
+                font-size: 16px;
+                font-weight: 300;
+                
+
+                h2 {
+                    font-family: "DM Sans";
+                    font-size: 56px;  
+                    font-weight: 700;  
+                    padding: 0;
+                    margin: 0;
+                    z-index: 1;
+                    position: relative;
+                }
+
+                .breadcrumb {
+                    display: inline-block;
+                    text-align: center;
+                }
+
+                ul.breadcrumb li {
+                    display: inline;
+                    padding-left: 20px;
+                    font-size: 18px;
+                    padding-right: 20px;
+                    font-family: "Inter";
+                  }
+                 
+                  ul.breadcrumb li a {
+                    color: #191919;
+                    text-decoration: none;
+                  }
+                  ul.breadcrumb li a:hover {
+
+                    text-decoration: underline;
+                  }
+
+                  li.current {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }    
+    }   
+}
+
+.contact {
+
+    @media (max-width: 992px) {
+        background-color: #F0EFE9;
+    }
+    .container {
+
+        .contactparent {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            @media (min-width: 992px) {
+                justify-content: space-between;
+                padding-top: 60px;
+                padding-bottom: 40px;}
+
+            .contactcards {
+                display: flex;
+                align-items: start;
+                border: solid 1px #666666;
+
+                margin-top: 0;
+                margin-bottom: 10px;
+                padding: 30px 100px;
+                padding-left: 40px;
+                z-index: 1;
+
+                @media (min-width: 992px) {
+                    width: 420px;
+                    height: 206px;
+                }
+                .contacticon {
+                    margin-right: 30px;
+                }
+
+                a {
+                    display: flex;
+                    color: #191919;
+                    text-decoration: none;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+
+        .contactform {
+            margin-top: 60px;
+            padding-top: 60px;
+            padding-bottom: 90px;
+            background-color: #F0EFE9;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            margin: 0;
+
+            @media (min-width: 992px) {
+                margin-bottom: 80px;
+                
+            }
+    
+            form {
+                #yourMessage {
+                    width: 100%;
+                }
+                @media (min-width: 992px) {
+                    padding: 0 100px;
+                }
+                
+                button {
+                    margin-top: 30px;
+                    width: 100%;
+                }
+    
+                textarea {
+                    padding: 8px;
+                    border-radius: 20px;
+                    border: none;
+                    
+                    padding-left: 20px;
+                    resize: none;
+                }
+            }
+        }
+    }
+}
+
+.breadcrumb {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breadcrumb li {
+    display: inline;
+    padding-left: 20px;
+    font-size: 16px;
+    padding-right: 20px;
+    font-family: "Inter";
+  }
+  
+  .breadcrumb-link {
+    color: #191919;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-link:hover {
+    text-decoration: underline;
+  }
+  
+  .current {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: #191919;
+  }
+  

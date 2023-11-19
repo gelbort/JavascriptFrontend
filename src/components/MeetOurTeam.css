@@ -1,0 +1,79 @@
+.meetourteam {
+  background-color: rgba(240, 208, 130, 0.93);
+}
+@media (max-width: 540px) {
+  .meetourteam .container .section-title .inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .meetourteam .container .section-title .inside {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+  }
+}
+.meetourteam .container .section-title .inside .btn-yellow {
+  border: solid 1px black;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+.meetourteam .container .section-title .inside .btn-yellow i {
+  padding-left: 20px;
+}
+.meetourteam .container .team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .meetourteam .container .team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .meetourteam .container .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 540px) {
+  .meetourteam .container .team .teambox {
+    text-align: center;
+  }
+}
+.meetourteam .container .team .teambox h4 {
+  padding-top: 15px;
+}
+.meetourteam .container .team .teambox img {
+  width: 310px;
+  height: 420px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media (max-width: 540px) {
+  .meetourteam .container .team .teambox img {
+    padding-top: 20px;
+    width: 290px;
+    height: auto;
+  }
+}
+@media (max-width: 540px) {
+  .meetourteam .container .team .mobileteam {
+    display: none;
+  }
+}
+.meetourteam .container .dots {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
